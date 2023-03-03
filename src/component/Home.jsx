@@ -14,10 +14,8 @@ const Home = () => {
                         I'm a Full Stack Developer
                     </h2>
                     <p className="text-gray-400 max-w-md py-4">
-                        I have self taught experience in building web-applications.
-                        Key interests in backend development using java as well as
-                        frontend technologies like
-                        HTML, CSS, React JS, Node JS, and Tailwind.
+                        Key interest in backend, specializing in java.
+                        Checkout my work below feel free to contact if you want to work with me. 
                     </p>
 
                     <div>
@@ -28,6 +26,7 @@ const Home = () => {
                             </span>
                         </Link>
                     </div>
+                    
                 </div>
                 
                 <div>

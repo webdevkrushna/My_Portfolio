@@ -9,17 +9,18 @@ const About = () => {
         </div>
         
         <p className='text-xl mt-14'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, 
-            enim dolore unde similique laborum quia dolores harum tenetur numquam voluptas repudiandae ducimus tempora 
-            labore praesentium excepturi in animi incidunt quaerat velit, recusandae at! Labore, blanditiis dolorum rem dolores 
-            fuga non nulla suscipit eos mollitia facilis aut, quibusdam assumenda accusantium doloribus!
+            <span>Hi. I'm Krushna</span> 
+            I'm a BCS graduate located in Maharashtra, 
+            I have 1 year of self taught experience in building web-applications.
+            Checkout some of my work <li href="portfolio" className='text-blue-700 hover:underline'>projects</li>.
+                        Key interests in backend development using java as well as
+                        frontend technologies like
+                        HTML5, CSS3, React JS, Node JS, and Tailwind.
         </p>
         <br/>
         <p className='text-xl '>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, 
-            enim dolore unde similique laborum quia dolores harum tenetur numquam voluptas repudiandae ducimus tempora 
-            labore praesentium excepturi in animi incidunt quaerat velit, recusandae at! Labore, blanditiis dolorum rem dolores 
-            fuga non nulla suscipit eos mollitia facilis aut, quibusdam assumenda accusantium doloribus!
+           I'm familiar with tools genkins,git,maven and concepts like CI and CD. 
+           I have good knowlege and working experience with "REST APIs", and would love an opportunity to work with "REST and Microservices".
         </p>
         </div>
     </div>
