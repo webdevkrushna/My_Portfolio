@@ -9,18 +9,22 @@ const About = () => {
         </div>
         
         <p className='text-xl mt-14'>
-            <span>Hi. I'm Krushna</span> 
-            I'm a BCS graduate located in Maharashtra, 
+            <span className='mb-2 font-bold text-xl'>Hi, I'm Krushna </span><br/>
+            I'm a "Bachelor Of Computer Science" graduate currently located in Maharashtra, 
             I have 1 year of self taught experience in building web-applications.
-            Checkout some of my work <li href="portfolio" className='text-blue-700 hover:underline'>projects</li>.
+            Checkout some of my work <a href="portfolio" className='text-blue-700 hover:underline marker:none cursor-pointer'> projects </a>.
+                        
                         Key interests in backend development using java as well as
                         frontend technologies like
                         HTML5, CSS3, React JS, Node JS, and Tailwind.
         </p>
         <br/>
         <p className='text-xl '>
-           I'm familiar with tools genkins,git,maven and concepts like CI and CD. 
+           I'm familiar with tools such as genkins,git,maven and concepts like CI and CD. 
            I have good knowlege and working experience with "REST APIs", and would love an opportunity to work with "REST and Microservices".
+           Available for freelance as well as full time job. You can download my<a href='/resume.pdf' className='text-blue-700 hover:underline cursor-pointer' download={true}> Resume</a>.
+
+           
         </p>
         </div>
     </div>
