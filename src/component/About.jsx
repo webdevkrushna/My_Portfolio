@@ -9,17 +9,22 @@ const About = () => {
         </div>
         
         <p className='text-xl mt-14'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, 
-            enim dolore unde similique laborum quia dolores harum tenetur numquam voluptas repudiandae ducimus tempora 
-            labore praesentium excepturi in animi incidunt quaerat velit, recusandae at! Labore, blanditiis dolorum rem dolores 
-            fuga non nulla suscipit eos mollitia facilis aut, quibusdam assumenda accusantium doloribus!
+            <span className='mb-2 font-bold text-xl'>Hi, I'm Krushna </span><br/>
+            I'm a "Bachelor Of Computer Science" graduate currently located in Maharashtra, 
+            I have 1 year of self taught experience in building web-applications.
+            Checkout some of my work <a href="portfolio" className='text-blue-700 hover:underline marker:none cursor-pointer'> projects </a>.
+                        
+                        Key interests in backend development using java as well as
+                        frontend technologies like
+                        HTML5, CSS3, React JS, Node JS, and Tailwind.
         </p>
         <br/>
         <p className='text-xl '>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, 
-            enim dolore unde similique laborum quia dolores harum tenetur numquam voluptas repudiandae ducimus tempora 
-            labore praesentium excepturi in animi incidunt quaerat velit, recusandae at! Labore, blanditiis dolorum rem dolores 
-            fuga non nulla suscipit eos mollitia facilis aut, quibusdam assumenda accusantium doloribus!
+           I'm familiar with tools such as genkins,git,maven and concepts like CI and CD. 
+           I have good knowlege and working experience with "REST APIs", and would love an opportunity to work with "REST and Microservices".
+           Available for freelance as well as full time job. You can download my<a href='/resume.pdf' className='text-blue-700 hover:underline cursor-pointer' download={true}> Resume</a>.
+
+           
         </p>
         </div>
     </div>
