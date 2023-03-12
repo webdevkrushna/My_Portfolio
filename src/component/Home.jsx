@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 const Home = () => {
     return (
         <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 ">
-
+            
             <div className="max-w-screen-lg mx-auto flex flex-col
         items-center justify-center h-full px-4 md:flex-row ">
                 
@@ -14,10 +14,8 @@ const Home = () => {
                         I'm a Full Stack Developer
                     </h2>
                     <p className="text-gray-400 max-w-md py-4">
-                        I have self taught experience in building web-applications.
-                        Key interests in backend development using java as well as
-                        frontend technologies like
-                        HTML, CSS, React JS, Node JS, and Tailwind.
+                        Key interest in backend, specializing in java.
+                        Checkout my work below feel free to contact if you want to work with me. 
                     </p>
 
                     <div>
@@ -28,6 +26,7 @@ const Home = () => {
                             </span>
                         </Link>
                     </div>
+                    
                 </div>
                 
                 <div>
