@@ -12,6 +12,11 @@ const Portfolio = () => {
       src:my_portfolio,
       href:"https://github.com/webdevkrushna/My_Portfolio"
     },
+    {
+      id:2,
+      src:Blog_pic,
+      href:"https://github.com/silentwolf65/Blog-User-Api"
+    }
   ]
 
   return (
