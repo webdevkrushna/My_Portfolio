@@ -12,7 +12,7 @@ const SocialLinks = () => {
               LinkedIn <FaLinkedin size={30} />
           </> 
         ),
-        href: 'https://linkedin.com',
+        href: 'https://linkedin.com/in/krushna-kale-1370061a1',
         style:'rounded-tr-md'
       },
       {
