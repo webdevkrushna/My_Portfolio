@@ -1,5 +1,6 @@
 import React from 'react'
 import my_portfolio from '../assets/portfolio/my_portfolio.png';
+import BlogTempImg from '../assets/portfolio/BlogTempImg.jpg';
 const Portfolio = () => {
   
   const handleClick=(link)=>{
@@ -11,6 +12,11 @@ const Portfolio = () => {
       id:1,
       src:my_portfolio,
       href:"https://github.com/webdevkrushna/My_Portfolio"
+    },
+    {
+      id:2,
+      src:BlogTempImg,
+      href:"https://github.com/silentwolf65/Blog-User-Api"
     },
   ]
 
@@ -28,7 +34,7 @@ const Portfolio = () => {
           {
             portfolios.map(({id,src,href})=>(
             <div key={id} className=" shadow-md shadow-gray-600 rounded-lg">
-              <img src={src} alt="portfolio_snapshot" className=" rounded-md hover:scale-105 duration-200"/>
+              <img src={src} alt="project snapshot" className=" rounded-md hover:scale-105 w-full h-2/3 duration-200"/>
                 <div className="flex items-center justify-center">
                   <button onClick={()=>{
                     handleClick(href)
